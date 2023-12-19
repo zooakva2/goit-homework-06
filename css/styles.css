@@ -553,11 +553,11 @@ button {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    margin-left: 24px;
 }
 
 .footer-label-subscribe {
     margin-left: 16px;
+    fill: #ffffff;
 }
 
 .footer-subscribe {
