@@ -922,6 +922,29 @@ button {
             fill: #f4f4fd;
             stroke: #F4F4FD;
         }
+        .menu-one {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+        .logo {
+            margin-top: 17px;
+            margin-bottom: 17px;
+            margin-left: 16px;
+            margin-right: 0;
+        }
+        .mobile-menu-open-btn-icon {
+            top: 16px;
+            right: 16px;
+            margin-left: 133px;
+        }
     .section-one {
         padding: 72px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/image12.jpg');
@@ -1215,7 +1238,9 @@ button {
         padding-right: 24px;
         padding-left: 24px;
     }
-        
+    .backdrop {
+        width: 768px;
+    }    
     
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
