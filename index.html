@@ -15,22 +15,22 @@
 </head>
 <body>
      <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="nav">
             <a class="logo" href="./index.html">Web<span class="logo-span">Studio</span></a>
-            <button class="mobile-menu-open-btn" type="button">
-              <svg class="mobile-menu-open-btn-icon" width="24" height="24" aria-label="mobile menu open icon">
-                  <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
-              </svg>
-            </button>
             <ul class="menu-one">
               <li><a class="line line-studio" href="">Studio</a></li>
               <li><a class="line" href="">Portfolio</a></li>
               <li><a class="line" href="">Contacts</a></li>
             </ul>
           </nav>
+          <button class="mobile-menu-open-btn" type="button">
+            <svg class="mobile-menu-open-btn-icon" width="24" height="24" aria-label="mobile menu open icon">
+                <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+          </button>
           <address class="address-header"> 
-              <ul class="menu-one"> 
+              <ul class="menu-one-address"> 
               <li><a class="line-three" href="mailto:info@devstudio.com">info@devstudio.com </a> </li>
               <li><a class="line-three" href="tel:+110001111111">+11 (000) 111-11-11</a> </li> 
               </ul>
@@ -76,7 +76,7 @@
                     <h2 class="section-main-title">Our Team</h2>
                     <ul class="section-menu-three"> 
                       <li class="section-three-ul">
-                          <img src="./images/image.jpg" alt="Mark Guerrero" width="264" height="260">
+                          <img srcset="./images/img1l@2x.jpg 2x" src="./images/img1l.jpg" alt="Mark Guerrero" width="264" height="260">
                           <div class="section-tree-main-text">
                           <h3 class="section-three-title">Mark Guerrero</h3>
                           <p class="section-three-text">Product Designer</p>
@@ -113,7 +113,7 @@
                           </div>
                       </li>
                       <li class="section-three-ul">
-                          <img class="image-of-our-team" src="./images/image2.jpg" alt="Tom Ford" width="264" height="260">
+                          <img class="image-of-our-team" srcset="./images/img2l@2x.jpg 2x" src="./images/img2l.jpg" alt="Tom Ford" width="264" height="260">
                           <div class="section-tree-main-text">
                           <h3 class="section-three-title">Tom Ford</h3>
                           <p class="section-three-text">Frontend Developer</p>
@@ -150,7 +150,7 @@
                           </div>
                       </li>
                       <li class="section-three-ul li-tree">
-                          <img src="./images/image3.jpg" alt="Camila Garcia" width="264" height="260">
+                          <img srcset="./images/img3l@2x.jpg 2x" src="./images/img3l.jpg" alt="Camila Garcia" width="264" height="260">
                           <div class="section-tree-main-text">
                           <h3 class="section-three-title">Camila Garcia</h3>
                           <p class="section-three-text">Marketing</p>
@@ -187,7 +187,7 @@
                           </div>
                       </li>
                       <li class="section-three-ul">
-                          <img src="./images/image4.jpg" alt="Daniel Wilson" width="264" height="260">
+                          <img srcset="./images/img4l@2x.jpg 2x" src="./images/img4l.jpg" alt="Daniel Wilson" width="264" height="260">
                           <div class="section-tree-main-text">
                           <h3 class="section-three-title">Daniel Wilson</h3>
                           <p class="section-three-text">UI Designer</p>
@@ -232,61 +232,61 @@
                     <ul class="menu-four">
                       <li class="item-four">
                         <div class="hover-image">
-                          <img class="img-four" src="./images/image5.jpg" alt="Banking App" width="360" height="300">
+                          <img class="img-four" srcset="./images/img5l@2x.jpg 2x" src="./images/img5l.jpg" alt="Banking App" width="360" height="300">
                           <p class="hidden-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                           <div class="text-four">
-                          <h3 class="title">Banking</h3>
+                          <h3 class="title-four">Banking</h3>
                           <p class="text">App</p>
                         </div>
                       </li>
                       <li class="item-four">
                         <div class="hover-image">
-                          <img class="img-four" src="./images/image6.jpg" alt="CashLess Payment" width="360" height="300">
+                          <img class="img-four" srcset="./images/img6l@2x.jpg 2x" src="./images/img6l.jpg" alt="CashLess Payment" width="360" height="300">
                           <p class="hidden-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>  
                           <div class="text-four">
-                          <h3 class="title">Cashless Payment</h3>
+                          <h3 class="title-four">Cashless Payment</h3>
                           <p class="text">Marketing</p>
                         </div>
                       </li>
                       <li class="item-four">
                         <div class="hover-image">
-                          <img class="img-four" src="./images/image7.jpg" alt="Meditation App" width="360" height="300">
+                          <img class="img-four" srcset="./images/img7l@2x.jpg 2x" src="./images/img7l.jpg" alt="Meditation App" width="360" height="300">
                           <p class="hidden-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>  
                           <div class="text-four">
-                          <h3 class="title">Meditation App</h3>
+                          <h3 class="title-four">Meditation App</h3>
                           <p class="text">App</p>
                         </div>
                       </li>
                       <li class="item-four">
                         <div class="hover-image">
-                          <img class="img-four" src="./images/image8.jpg" alt="Taxi Service" width="360" height="300">
+                          <img class="img-four" srcset="./images/img8l@2x.jpg 2x" src="./images/img8l.jpg" alt="Taxi Service" width="360" height="300">
                           <p class="hidden-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>  
                           <div class="text-four">
-                          <h3 class="title">Taxi Service</h3>
+                          <h3 class="title-four">Taxi Service</h3>
                           <p class="text">Marketing</p>
                         </div>
                       </li>
                       <li class="item-four">
                         <div class="hover-image">
-                          <img class="img-four" src="./images/image9.jpg" alt="Screen Illustrations" width="360" height="300">
+                          <img class="img-four" srcset="./images/img9l@2x.jpg 2x" src="./images/img9l.jpg" alt="Screen Illustrations" width="360" height="300">
                           <p class="hidden-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>  
                           <div class="text-four">
-                          <h3 class="title">Screen Illustrations</h3>
+                          <h3 class="title-four">Screen Illustrations</h3>
                           <p class="text">Design</p>
                         </div>
                       </li>
                       <li class="item-four">
                         <div class="hover-image">
-                          <img class="img-four" src="./images/image10.jpg" alt="Online Courses" width="360" height="300">
+                          <img class="img-four" srcset="./images/img10l@2x.jpg 2x" src="./images/img10l.jpg" alt="Online Courses" width="360" height="300">
                           <p class="hidden-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>  
                           <div class="text-four">
-                          <h3 class="title">Online Courses</h3>
+                          <h3 class="title-four">Online Courses</h3>
                           <p class="text">Marketing</p>
                         </div>
                       </li>
@@ -419,7 +419,7 @@
           <div class="container mobile-menu-container">
               <button class="mobile-menu-close-btn" type="button">
                   <svg class="mobile-menu-close-btn-icon" width="8" height="8" aria-label="mobile menu close icon">
-                      <use href="./images/icons.svg#icon-close"></use>
+                      <use href="./images/icons.svg#icon-close-black"></use>
                   </svg>
               </button>
               <nav class="mobile-menu-navigation">
